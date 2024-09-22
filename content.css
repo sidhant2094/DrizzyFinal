@@ -1,0 +1,53 @@
+.heading{
+    font-size: 50px;
+    margin: 25px;
+}
+
+.paras {
+    font-size: 20px;
+    margin: 25px;
+}
+
+hr {
+    margin: 25px;
+}
+
+.refund-lists {
+    margin: 25px;
+    font-size: 20px;
+}
+
+.main-content {
+    width: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.heading2 {
+    font-size: 30px;
+    margin: 25px;
+}
+
+.heading3 {
+    margin: 25px;
+}
+
+#privacy-main {
+    height: 7400px;
+}
+
+#refund-main {
+    height: 520px
+}
+
+#terms-main {
+    height: 1000px;
+}
+
+.heading4 {
+    font-size: 30px;
+    margin: 25px;
+}
