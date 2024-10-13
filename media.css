@@ -1,0 +1,124 @@
+@media only screen and (max-width: 900px) {
+
+
+    /* HEADER */
+
+    .header-logo {
+        height: 60px;
+        width: auto;
+    }
+
+    .contact-us{
+        font-size: 15px;
+        
+    }
+
+    .contactus {
+        margin-left: 20px;
+    }
+
+    .get-app {
+        width: auto;
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 47px;
+    }
+
+    /* MAIN CONTENT HEIGHT MANAGER */
+
+
+    /* MAIN CONTENT */
+
+    .heading{
+        margin: 10px;
+        font-size: 35px;
+    }
+
+    .paras{
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .main-content {
+        width: auto;
+        background-color: white;
+        padding-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        overflow: visible;
+    }
+
+    .heading2 {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .refund-lists {
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .heading3 {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    /* FOOTER */
+
+    .footer-text{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .r2021 {
+        font-size: 10px;
+    }
+
+    .footer-logo {
+        width: auto;
+        height: 60px;
+    }
+
+
+    .footer-list{
+        list-style-type: none;
+        margin: 5px;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .footer-list li {
+        float: none;
+    }
+
+    .contact-title{
+        font-size: 20px;
+    }
+
+    .mid {
+        margin-left: 30px;
+        margin-right: 30px
+    }
+
+    .explore-title{
+        font-size: 20px;
+    }
+
+    .explore {
+        font-size: 10px
+    }
+    
+    .left {
+        margin-left: 30px;
+    }
+
+    .contact-us-footer{
+        font-size: 10px;
+    }
+
+
+
+    /* HOME PAGE */
+
+    
+}

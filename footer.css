@@ -1,0 +1,69 @@
+.footer {
+    background-color: #1F2133;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    margin-left: 50px;
+    font-size: 35px;
+
+}
+
+.footer-logo{
+    height: 150px;
+    width: auto;
+}
+
+.r2021 {
+    font-size: 15px;
+}
+.explore {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+.explore li {
+    float: none;
+}
+
+.contact-us-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.contact-us-footer li {
+    float: none;
+}
+
+.footer-list{
+    list-style-type: none;
+    margin: 20;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-list li {
+    float: left;
+}
+
+.mid{
+    margin-left: 200px;
+}
+
+.left {
+    margin-left: 120px;
+}
+
+.explore-title {
+    font-size: 35px;
+}
+
+.contact-title {
+    font-size: 35px;
+}

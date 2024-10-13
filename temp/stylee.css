@@ -1,0 +1,184 @@
+.para1{
+    font-size:20px;
+}
+
+.drive{
+    height:150px;
+    width:150px;
+}
+.blue{
+    background:#84adec;
+    height:75px;
+    width:1350px;
+    float:right;
+    margin-top:35px;
+    text-align:center;
+}
+.h1{
+    font-size:50px;
+}
+.h2{
+    font-size:30px;
+}
+.para2{
+    font-size:20px;
+}
+
+.logo{
+    height:150px;
+    width:150px;
+   
+}
+.footer{
+    margin:0px;
+    color:white;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-family:Open Sans;
+    }
+
+footer{
+    background: #1F2133;
+    height:400px;
+    width:100%;
+
+    
+}
+.box1{
+    flex:1;
+    margin-left:100px;
+}
+.now{
+    font-size:35px;
+    width:400px;
+    margin-top:-30px;
+}
+.div{
+    flex:1;
+    margin-left:160px;
+   
+    
+}
+.driving{
+    font-weight:bold;
+    font-size:35px;
+    
+}
+
+.home{
+    color:white;
+    text-decoration:none;
+    margin-left:50px;
+     
+}
+.About {
+    color:white;
+    text-decoration:none;
+    margin-left:50px;
+    
+}
+.get-appp{
+    color:white;
+    text-decoration:none;
+    margin-left:50px;
+}
+.sign{
+    color:white;
+    text-align: center;
+    text-decoration:none;
+    margin-left:50px;
+}
+.contact{
+  flex:1;
+   margin-right:-10px;
+}
+.list h2{
+    font-size:40px;
+
+}
+.list li{
+    margin-left:30px;
+}
+.div ul{
+    list-style:none;
+    font-size:20px;
+}
+
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-content:flex-start;
+}
+
+.all{
+    color:white;
+    flex:1;
+    margin-left: 100px;
+    font-size:20px;
+    margin-top: -60px;
+}
+.icons img{
+    height:55px;
+    flex:0.3;
+    margin-right:20px;
+    margin-top: 50px;
+   
+   
+}
+.list{
+    list-style:none;
+    font-size:20px;
+}
+.explore{
+  flex:2;
+  margin-left:30px;
+  font-size:40px;
+}
+
+.content{
+    margin:100px;
+    margin-left:200px;
+    margin-right:200px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.logoo{
+    height:80px;
+    width:80px;
+    margin:20px;
+}
+.navbar{
+    display:flex;
+    font-family:Open Sans;
+
+
+}
+.xpx{
+    margin-top:50px;
+}
+
+.xpx ul{
+    list-style: none;
+    display:inline;
+}
+.nett{
+    display:inline;
+    font-size:20px;
+    margin-left:-20px;
+    
+}
+.contactus{
+    display:inline;
+    font-size:20px;
+    margin-left:10px;
+    
+}
+.pics{
+    margin-left:68px;
+    margin-top:40px;
+}

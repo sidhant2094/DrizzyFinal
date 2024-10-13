@@ -1,0 +1,544 @@
+.logo{
+    height:150px;
+    width:150px;
+    margin-top:10px;
+}
+.footer{
+    margin:0px;
+    color:white;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-family:Open Sans;
+    }
+
+footer{
+    background: #1F2133;
+    height:400px;
+    width:100%;
+
+    
+}
+.box1{
+    flex:1;
+    margin-left:100px;
+}
+.now{
+    font-size:35px;
+    margin-top:-30px;
+}
+.div{
+    flex:1;
+    margin-left:200px;
+    margin-right:25px;
+   
+    
+}
+.driving{
+    font-weight:bold;
+    font-size:35px;
+    
+}
+
+.home{
+    color:white;
+    text-decoration:none;
+     
+}
+.About {
+    color:white;
+    text-decoration:none;
+    
+}
+.get-appp{
+    color:white;
+    text-decoration:none;
+}
+.sign{
+    color:white;
+    text-align: center;
+    text-decoration:none;
+}
+.contact{
+  flex:1;
+   margin-right:50px;
+}
+.list h2{
+    font-size:40px;
+    margin-left:30px;
+
+}
+.div ul{
+    list-style:none;
+    font-size:20px;
+}
+
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-content:flex-start;
+}
+.icons{
+    display:flex;
+    height:30px;
+    width:30px;
+    justify-content:space-between;
+    margin-right:430px;
+    margin-top:-100px;
+    
+}
+.all{
+    color:white;
+    flex:1;
+    margin-left:50px;
+    font-size:20px;
+    margin-top:30px;
+}
+.icons img{
+    height:55px;
+    flex:0.3;
+    margin-right:15px;
+   
+   
+}
+.list{
+    list-style:none;
+    font-size:20px;
+}
+.explore{
+  flex:2;
+  margin-left:30px;
+  font-size:40px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    font-family:Open Sans;
+}
+
+
+
+.two{
+    color: white;
+    margin-top: 40px;
+    width: 400px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size:50px;
+    margin-left:550px;
+    
+  
+  }
+  .three{ 
+    font-size:40px;
+    color: white;
+    margin-left:580px;
+    width: 400px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size:40px;
+    
+  }
+  
+  
+  .left{
+    display:flex;
+    background-color: #1F2133;
+    position: relative;
+    margin:0px;
+    height:800px;
+    width:100%;;
+
+  }
+  .chat{
+    background:white;
+    margin:60px;
+   
+  }
+  .suri{
+    margin-top:10px;
+    margin-left:800px;
+    width: 500px; 
+    height:500px;
+  }
+  .chatbox{
+    flex:1;
+    margin-left:150px;
+    position:relative;
+    margin-top:150px;
+  }
+  .one{
+    flex:1;
+    position:absolute;
+    
+  }
+  .check{
+    display:flex;
+    height:700px;
+    justify-content:center;
+    background:rgb(255, 255, 241);
+  }
+  .widest{
+    font-family:Open Sans;
+    margin-top:30px;
+    text-align: center;
+    font-size:35px;
+  }
+  .skilled{
+    font-family:Open Sans;
+    text-align: center;
+    font-size:40px;
+    margin-top:-30px;
+  }
+  .boxx1{
+    position:relative;
+    background:#1F2133;
+    height:300px;
+    width:420px;
+    margin-top:350px;
+    margin-left:25px;
+    border-radius:30px;
+  }
+  .boxx2{
+    display:inline-block;
+    position:relative;
+    background:#1F2133;
+    height:300px;
+    width:420px;
+    margin-left:50px;
+    margin-top:350px;
+    border-radius:30px;
+
+  }
+  .boxx3{
+    display:inline-block;
+    position:relative;
+    background:#1F2133;
+    height:300px;
+    width:420px;
+    margin-left:50px;
+    margin-top:350px;
+    border-radius:30px;
+
+  }
+  .wsdriv{
+    flex:1;
+    position:absolute;
+  }
+  .textlor{
+    font-size:30px;
+    margin-left:100px;
+    margin-right:100px;
+  }
+  .download{
+    display:flex;
+    justify-content:center ;
+    align-content: center;
+    height:1000px;
+  }
+  
+  .fourr{
+    flex: 1;
+    width:8;
+    font-family:"IBM Plex Sans", sans-serif;
+    position:absolute;
+  }
+  #twoo{
+    font-size:60px;
+    text-align:center;
+    font-weight:50%;
+    margin-top:80px;
+  }
+  .threee{
+    font-size:30px;
+    color:#1F2133;
+    text-align: center;
+    margin-left:200px;
+    margin-right:200px;
+  }
+  .fivee{
+    margin-top:500px;
+    margin-right:200px;
+  }
+  .mscreen{
+    flex:1;
+    position:relative;
+    margin-top:300px;
+    margin-left:100px;
+  }
+  .partners{
+    display:flex;
+    height:150px;
+    background:#1F2133;
+    margin:0px;
+  }
+  .ouchh{
+    color:white;
+    font-size:50px;
+    margin-left: 300px;
+    margin-top:40px;
+    font-family:"Open Sans";
+    font-weight:"70%"
+  }
+  .lid1{
+    display:inline;
+    align-content:space-around;
+    margin-left:300px;
+  }
+  .dedicated1{
+    height:900px;
+  }
+
+  .icons2{
+    margin-right:20px;
+  }
+  .yellow{
+    height:800px;
+    background:#F6E1A0;
+  }
+
+  .heading-text {
+    position:absolute;
+    text-align: center;
+    font-size: 30px;
+    margin-left:10px;
+    font-family:Open Sans;
+}
+
+.box-1 {
+  display:inline-block;
+  position:relative;
+  background-image: url(assets/driver.png);
+  background-repeat: no-repeat;
+  background-size: 400px 550px;
+  background-color: #cccccc;
+  height: 550px;
+  width: 400px;
+  border-radius:30px;
+  margin-top:320px;
+  margin-left:10px;
+  margin-right:10px;
+  align-items:center;
+  
+
+}
+
+.box-text {
+    text-align: center;
+    color: white;
+    
+}
+
+.star {
+    height: auto;
+    width: 25px;
+    margin-top: -10px;
+    align-items: center;
+    display:inline;
+    margin-bottom:-8px;
+}
+
+
+.container1{
+  display:flex;
+  height:10px;
+  align-content:center;
+  justify-content: center;
+}
+.yellow{
+  display:flex;
+  justify-content: center;
+}
+#lorem{
+  flex:1;
+  position:relative;
+  font-family:Open Sans;
+  margin-left:500px;
+}
+.widest1{
+  text-align:center;
+  font-size:35px;
+
+}
+#skilled1{
+  text-align:center;
+  font-size:60px;
+  margin-top:-15px;
+  position: absolute;
+  margin-left:350px;
+}
+.textlor1{
+  font-size:25px;
+  margin-left:200px;
+  margin-right:200px;
+  text-align:center;
+  
+}
+.boxx11{
+  height:300px;
+  background:white;
+  width:400px;
+  margin-top:320px;
+  margin-left:100px;
+  margin-left:20px;
+  border-radius:20px;
+}
+.boxx22{
+  display:inline-block;
+  background:white;
+  height:300px;
+  width:400px;
+  margin-top:320px;
+  margin-left:20px;
+  border-radius:20px;
+  
+}
+.boxx33{
+  height:300px;
+  width:400px;
+  background:white;
+  margin-top:320px;
+  margin-left:20px;
+  border-radius:20px;
+  
+
+}
+.car1{
+  border-radius:20px;
+  margin-top:30px;
+  height:130px;
+  margin-left:130px;
+}
+.car2{
+  border-radius:20px;
+  margin-top:30px;
+  height:130px;
+  margin-left:130px;
+}
+.car3{
+  border-radius:20px;
+  margin-top:30px;
+  height:130px;
+  margin-left:130px;
+}
+.text{
+  font-size:20px;
+  margin-left:30px;
+  margin-right:10px;
+}
+.text1{
+  font-size:20px;
+  margin-left:30px;
+  margin-right:10px;
+}
+.text2{
+  font-size:20px;
+  margin-left:30px;
+  margin-right:10px;
+}
+
+#navbar{
+  display:flex;
+  height:750px;
+  font-family:Open Sans;
+}
+
+.xpx ul{
+  list-style:none;
+  display:inline-block;
+}
+xpx ul,li{
+  display:inline;
+  margin-left:50px;
+  margin-top:-50px;
+}
+.xpx{
+  flex:1;
+  position:absolute;
+  margin-top:33px;
+  
+}
+.nett{
+  font-size:20px;
+  margin-left:100px;
+  
+}
+.contactus{
+  font-size:20px;
+ 
+}
+.pics{
+  display:flex;
+  position:relative;
+  margin-left:230px;
+}
+.sign-in{
+  margin-top:40px;
+  margin-left:70px;
+  
+  }
+.get-app{
+  margin-top:40px;
+  margin-left:60px;
+}
+.logoo{
+  height:80px;
+  width:80px;
+  margin:20px;
+}
+.nett{
+  margin-top:10px;
+}
+
+/* Right-side buttons */
+
+
+.right-car-img {
+  float: right;
+  top: 10px;
+  height: 740px;
+  width: 750px;
+  
+}
+.conti{
+  flex:1;
+  margin-left:-400px;
+}
+.asia{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  margin-top:200px;
+  margin-left:-10px;
+  position:relative;
+  
+  
+}
+.africa{
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin-top:-40px;
+  font-family:Open Sans;
+
+}
+.russia{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  
+
+}
+.learnmoree{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+body{
+  font-family:Open Sans;
+}
+

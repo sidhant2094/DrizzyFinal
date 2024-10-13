@@ -1,0 +1,53 @@
+.box-image20{
+    width: auto;
+    height: 220px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+
+.box-text20{
+    position: absolute;
+    margin-left: 200px;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: Open Sans;
+}
+
+.box-11{
+    height: 300px;
+    width: 400px;
+    background: #1F2133;
+    font-family: Open Sans;
+}
+
+.box-stars20{
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 235px;
+    margin-top: 50px;
+}
+
+.box-heading20{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 220px;
+    font-size: 20px;
+    color: white;
+}
+
+.box-location20{
+    margin-top: 270px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.box-location-text20{
+    position: absolute;
+    color: white;
+    margin-top: -50px;
+    margin-left: 240px;
+}

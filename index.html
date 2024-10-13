@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <img class="s1car" src="assets/HeroCar.png">
+    <header style="width: fit-content;" class="navbar">
+        <ul class="nav-list">    
+            <li><a href="index.html"><img class="header-logo" src="assets/logo.png"></a></li>
+            <li><div class="contactus"><a class="contact-us" href="#footers">Contact Us</a></div></li>
+            <li><a href="#downloadappnow"><img class="get-app" src="assets/get-app.svg"></a></li>
+        </ul>
+    </header>
+
+
+    <section class="section1DME">
+        
+        <h1 class="s1heading hugeheadings">Drizzy</h1>
+        <h1 class="s1heading2 headings">Driving Made Easy</h1>
+        <p class="s1para paragraphs">On a Mission to create Cult of Professional Drivers on Road.</p>
+        <a href="#learn-more1"><img src="assets/learn-more.png" class="learn-more"></a>
+        
+
+    </section>
+
+    <section id="learn-more1" class="section2Features">
+
+        <h1 id="learn-more1" class="s2heading headings">Features</h1>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="assets/screenshots/drizzy1-removebg-preview.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="assets/screenshots/drizzy2-removebg-preview.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="assets/screenshots/drizzy3-removebg-preview.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="assets/screenshots/drizzy4-removebg-preview.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="assets/screenshots/drizzy5-removebg-preview.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="assets/screenshots/drizzy6-removebg-preview.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="assets/screenshots/drizzy7-removebg-preview.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="assets/screenshots/drizzy8-removebg-preview.png" style="width:100%">
+              </div>
+            
+        </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+
+      <ul class="features-list">
+        <li>Guardian Safety</li><br/><br/>
+        <li>Comfortable 24 Hours Slot System with Week days and Weekend options</li><br/><br/>
+        <li>Choose the type of Vehicle you wanna learn with</li><br/><br/>
+        <li>Professional Schedule of Each Day</li><br/><br/>
+        <li>Tips and tricks of Learning</li><br/><br/>
+        <li>Quick Booking System within Area</li><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      </ul>
+
+    </section>
+
+    <section class="section3Download">
+
+        <h1 id="downloadappnow" class="s2heading headings">
+            Download The App Now!!
+        </h1>
+        <img class="s3screens" src="assets/MobileScreens.png">
+        <img class="s3playstore" src="assets/PlayStore.png">
+
+
+    </section>
+
+    <section class="section4Follow">
+      <h1 class="s4heading headings">FOLLOW US ON:</h1>
+      <a target="_blank" style="position: relative; z-index: 10;" href="https://www.linkedin.com/company/drizzygosafe/people/">
+        <img class="s4linkedin" src="./assets/linkedin.png" alt="linkedIn">
+      </a>
+      <a target="_blank" style="position: relative; z-index: 10;" href="https://www.instagram.com/drizzy.in">
+        <img class="s4insta" src="./assets/insta.png" alt="Instagram">
+      </a>
+      
+      
+    </section>
+
+    <section class="section5Drivers">
+      <h1 class="s5heading1 headings">The Widest Cult of</h1>
+      <h1 class="s5heading2 smallheadings">Professional Drivers Trained</h1>
+      <!--<p class="s5para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur, ut ultricies magna laoreet. Pellentesque eu interdum leo. Quisque porta ligula ut eleifend laoreet.</p>-->
+                    <div class="s5boxes">  
+                      <ol class="s5list">
+                        <li>
+                          <div id="s5box1" class="s5box">
+                            <h1 class="s5boxheading">DRIVER FIRST</h1>
+                            <h2 class="s5heading4">4 YEAR EXPERIENCE</h2>
+                            <img class="s5stars" src="assets/stars/3star.svg">
+                            <p class="s5boxpara">Lorem ipsum dolor sit amet, nnnnn consectetur adipiscing elit. Quisque auctor aliquam velit</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div id="s5box" class="s5box">
+                            <h1 class="s5boxheading">DRIVER FIRST</h1>
+                            <h2 class="s5heading4">4 YEAR EXPERIENCE</h2>
+                            <img class="s5stars" src="assets/stars/3star.svg">
+                            <p class="s5boxpara">Lorem ipsum dolor sit amet, nnnnn consectetur adipiscing elit. Quisque auctor aliquam velit</p>
+                  
+                          </div>
+                        </li>
+                        <li>
+                          <div id="s5box2" class="s5box">
+                            <h1 class="s5boxheading">DRIVER FIRST</h1>
+                            <h2 class="s5heading4">4 YEAR EXPERIENCE</h2>
+                            <img class="s5stars" src="assets/stars/3star.svg">
+                            <p class="s5boxpara">Lorem ipsum dolor sit amet, nnnnn consectetur adipiscing elit. Quisque auctor aliquam velit</p>
+                          
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+    </section>
+
+    <section class="section6Chat">
+      <h1 class="s6heading1 headings">Start your journey</h1>
+      <h1 class="s6heading2 smallheadings">Book a Trainer</h1>
+      <iframe class="chatbox" src="https://links.collect.chat/66c25dcec7ec3e97bdf85208"  width="430" height="560" frameBorder="0"></iframe><script async type="text/javascript" src="https://collectcdn.com/embed.js"></script>
+
+      <img class="s6bookdriver" src="assets/BookDriver.png">
+      
+    </section>
+
+    <section class="section7Review">
+      <!-- <h1 class="s7heading1">Let's see </h1> -->
+      <h1 class="s7heading2 headings">Let's See What Our Cult Has To Say</h1>
+      <!--<p class="s5para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur, ut ultricies magna laoreet. Pellentesque eu interdum leo. Quisque porta ligula ut eleifend laoreet.</p>-->
+      <div class="s7boxes">
+        <ol class="s7list">
+          <li>
+            <div class="s7box" id="s7box1">
+              
+              <img src="assets/driver.png" class="s7boximg">
+              <img src="assets/stars/3star.svg" class="s7stars">
+              <p class="s7boxpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur</p>
+              
+              <h1 class="s7boxheading">Sidhant Malik</h1>
+              <img src="assets/location.svg" class="s7marker">
+              <p class="s7boxheading2">Delhi, India</p>
+            </div>
+          </li>
+          <li>
+            <div class="s7box" id="s7box2">
+              
+              <img src="assets/driver.png" class="s7boximg">
+              <img src="assets/stars/3star.svg" class="s7stars">
+              <p class="s7boxpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur</p>
+              
+              <h1 class="s7boxheading">Pranav Suri</h1>
+              <img src="assets/location.svg" class="s7marker">
+              <p class="s7boxheading2">Delhi, India</p>
+
+            </div>
+
+          </li>
+          <li>
+            <div class="s7box" id="s7box3">
+              
+              <img src="assets/driver.png" class="s7boximg">
+              <img src="assets/stars/3star.svg" class="s7stars">
+              <p class="s7boxpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur</p>
+              
+              <h1 class="s7boxheading">Jigyasa Jain</h1>
+              <img src="assets/location.svg" class="s7marker">
+              <p class="s7boxheading2">Delhi, India</p>
+
+
+            </div>
+
+          </li>
+        </ol>
+      </div>
+
+
+    </section>
+
+
+    <section id="footers" class="footer">
+        <ol class="footer-list">
+
+
+            <li class="footer-text">    
+                <p><b>Driving Made Easy</b></p>
+                <p>Download Drizzy Now!!</p>
+            
+            <img class="footer-logo" src="assets/logo.png">
+            <p class="r2021">© 2024 All Rights Reserved</p>
+            </li>
+
+            <li class="mid"></div>
+                <p class="explore-title"><b>Explore</b></p>
+                <ol class="explore">
+                    <li style="float: none;"><a style="text-decoration: none; color: white;"  href="index.html">Home</a></li>
+                    <li style="float: none;"><a style="text-decoration: none; color: white;"  href="privacy.html">Privacy Policy</a></li>
+                    <li style="float: none;"><a style="text-decoration: none; color: white;"  href="t&c.html">Terms and Conditions</a></li>
+                    <li style="float: none;"><a style="text-decoration: none; color: white;"  href="c&r.html">Refund and Cancellation</a></li>
+                </ol>
+            </li>
+
+            <li class="left">
+                <p class="contact-title"><b>Contact Us</b></p>
+                <ol class="contact-us-footer">
+                    <li style="float: none;">+91 70420 09908</li>
+                    <li style="float: none;">drizzy.gosafe@gmail.com</li>
+                    <li style="float: none;">57A, Pocket A11</li>
+                    <li style="float: none;">Kalkaji, Delhi - 110019</li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+</body>
+</html>
